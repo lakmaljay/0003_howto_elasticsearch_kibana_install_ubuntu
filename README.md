@@ -85,11 +85,12 @@ Replace the default Elasticsearch configuration file with the provided configura
 
 Modify this configuration as may be appropriate for your environment.
 
-####9. Set the password.
+#### 9. Set the password.
+```
 Execute the below command to set the password for login.
 sudo /usr/share/elasticsearch/bin/elasticsearch-setup-passwords interactive
-
-#### 9. Start Elasticsearch.
+```
+#### 10. Start Elasticsearch.
 
 ```
 sudo systemctl daemon-reload
@@ -99,7 +100,7 @@ sudo systemctl daemon-reload
 sudo systemctl start elasticsearch.service
 ```
 
-#### 10. Enable Elasticsearch to start automatically when the system is started.
+#### 11. Enable Elasticsearch to start automatically when the system is started.
 
 ```
 sudo systemctl enable elasticsearch.service
