@@ -85,6 +85,10 @@ Replace the default Elasticsearch configuration file with the provided configura
 
 Modify this configuration as may be appropriate for your environment.
 
+####9. Set the password.
+Execute the below command to set the password for login.
+sudo /usr/share/elasticsearch/bin/elasticsearch-setup-passwords interactive
+
 #### 9. Start Elasticsearch.
 
 ```
